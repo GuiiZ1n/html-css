@@ -1,0 +1,115 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+main {
+    display: auto;
+    background-image: linear-gradient(to bottom, #31AD68, #1A5C38);
+    text-align: center;
+    
+    
+    
+
+}
+
+main > h1 { 
+    color: white;
+    
+    
+}
+
+main > p {
+    color: white;
+}
+main > nav {
+    
+    text-align:  left;
+    color: white;
+    margin-top: 20px;
+    
+    
+}
+
+main > nav > div {
+    display: inline-block;
+    padding: 5px;
+    cursor: pointer;
+}
+
+main > nav > div:hover {
+    background-color: yellow;           
+
+}
+
+body {
+    background-color: #84E1AD;
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    background-position: center;
+    margin: auto;
+    width: 650px;
+   
+    
+    
+}
+
+section > h2 {
+    font-family: idroid;
+    color: #256441;
+}
+
+section > h3 {
+    color: #256441;
+    font-family: idroid;
+    background-image: linear-gradient(to right #84E1AD #DFF4E8);
+}
+
+footer {
+    background-color: #1A5C38;
+    width: 650px;
+    margin:auto;
+    
+
+}
+
+span {
+    display: block;
+    background-color: white;
+    width: 650px;
+    margin: auto;
+    border-radius: 0px 0px 5px 5px;
+}
+
+span > h4 {
+    background-color: #2FA866;
+    margin: auto;
+    width: 600px;
+    text-align: left;
+    padding: 5px;
+
+}
+
+
+span > ul {
+    text-align: left;
+    
+
+}
+
+span > div {
+    background-color: #C5EBD6;
+    margin: auto;
+    width: 600px;
+}
+
+h5 {
+    background-color: #1A5C38;
+    
+}

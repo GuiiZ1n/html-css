@@ -1,0 +1,247 @@
+*{margin: 0; padding: 0;}
+
+body {
+    font-family: arial,Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.menu {
+    list-style: none;
+    border: 1px solid black;
+    float: left;
+
+}
+
+.menu li {
+    position: relative;
+    float: left;
+    border-right: 1px solid black;
+}
+
+.menu li a {color: black; text-decoration: none; padding: 5px 10px; display: block;}
+
+
+.menu li a:hover{
+    background:#333; 
+    color:#fff; 
+    -moz-box-shadow:0 3px 10px 0 #CCC; 
+    -webkit-box-shadow:0 3px 10px 0 #ccc; 
+    text-shadow:0px 0px 5px #fff; 
+}
+
+.menu li  ul{
+    position:absolute; 
+    top:25px; 
+    left:0;
+    background-color:#fff; 
+    display:none;
+}  
+
+.menu li:hover ul, .menu li.over ul{display:block;}
+
+.menu li ul li{
+    border:1px solid #c0c0c0; 
+    display:block; 
+    width:150px;
+    }
+
+.header {
+    margin: 10px;
+}
+
+div#1{
+    display: inline-block;
+}
+
+div#2{
+    display: inline-block;
+}
+
+
+a
+
+@charset "UTF-8";
+
+.cabeçalho {
+    background-image: linear-gradient(to right, #02A676, #007369, #005A5B, #003840);
+    text-align: center;
+}
+
+.corpo {
+    background-color: white;
+    font: italic bolder 1em 'work sans, sans-serif';
+    color: black;
+    margin: auto;
+    width: 900px;
+    height: 65px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px black;
+    
+}
+
+.menu {
+    list-style: none;
+    border: 1px solid black;
+    display: flex;
+    
+    }
+
+.menu li {
+    position: relative;
+    border-right: 1px solid black;
+}
+
+.menu li a {
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+    transition: background-color 0.3s ease, color 0.3 ease;
+}
+.menu li a:hover {
+    background-color: #333;
+    color: #fff;
+    -moz-box-shadow: 0 3px 10px 0 #CCC; 
+    -webkit-box-shadow: 0 3px 10px 0 #ccc; 
+    text-shadow: 0px 0px 5px #fff;
+
+}
+
+.menu li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    min-width: 150px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.menu li:hover > ul{
+    display: block;
+}
+
+.menu li ul li{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    }
+
+    .menu li ul li:last-child {
+        border-bottom: none; 
+        }
+        .menu li ul li a {
+            padding: 10px;
+            display: block;
+            color: black;
+        }
+        
+        .menu li ul li a:hover {
+            background-color: #f2f2f2;
+        }
+        
+        /* Efeitos de transição para melhorar a interação */
+        .menu li a, .menu li ul li a {
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }           
+
+
+        aaa
+        
+        @charset "UTF-8";
+
+/* Estilo para o cabeçalho */
+.cabeçalho {
+    background-image: linear-gradient(to right, #02A676, #007369, #005A5B, #003840);
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 2em;
+}
+
+/* Estilo para o corpo do texto */
+.corpo {
+    background-color: white;
+    font: italic bolder 1em 'Work Sans', sans-serif;
+    color: black;
+    margin: auto;
+    width: 80%; /* Ajustando para uma largura mais flexível */
+    max-width: 900px;
+    padding: 15px; /* Aumentando o padding para maior espaçamento */
+    border-radius: 8px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.3); /* Melhorando a sombra */
+}
+
+/* Estilo para o menu de navegação */
+.menu {
+    list-style: none;
+    border: 1px solid black;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    position: relative;
+    border-right: 1px solid black;
+}
+
+.menu li a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.menu li a:hover {
+    background-color: #333;
+    color: #fff;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.3);
+    text-shadow: 0px 0px 5px #fff;
+}
+
+.menu li ul {
+    display: none; /* Esconde o submenu */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    min-width: 150px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu li:hover > ul {
+    display: block; /* Exibe o submenu quando o item for hover */
+}
+
+.menu li ul li {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.menu li ul li:last-child {
+    border-bottom: none;
+}
+
+.menu li ul li a {
+    padding: 10px;
+    display: block;
+    color: black;
+}
+
+.menu li ul li a:hover {
+    background-color: #f2f2f2;
+}
+
+/* Efeitos de transição para melhorar a interação */
+.menu li a, .menu li ul li a {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}

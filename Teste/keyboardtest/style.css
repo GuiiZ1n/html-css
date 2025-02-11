@@ -1,0 +1,13 @@
+
+body {
+    background-image: linear-gradient(to right, aqua, rgb(107, 107, 180));
+}
+
+h1{
+    background-color: aqua;
+
+}
+
+h2 {
+    background-image: linear-gradient(to right, aqua, rgb(179, 127, 127));
+}
