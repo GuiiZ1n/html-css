@@ -3,4 +3,4 @@
 
 Estou aprendendo a codar e agora vou atualizar meu repositório!
 
-<a href="https://guiiz1n.github.io/html-css/Desafios/d010.1/">Executar o desafio 10</a>
+<a href="https://guiiz1n.github.io/html-css/Desafios/d010.1/" target="_blank">Executar o desafio 10</a>
