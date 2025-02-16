@@ -11,6 +11,8 @@
 body { 
     font-family: 'Passion One';
     
+    
+    
 }
 a {
     text-decoration: none;
@@ -27,10 +29,14 @@ header {
     padding: 10px;
     margin: auto;
     text-align: center;
-    font: normal bold 5em 'Passion One, serif';
+    font: normal bold 5em 'Passion One';
 }
 header p {
-    font: normal bold 20px 'passion one';
+    /*font: normal normal 20px 'verdana';*/
+    font-family: 'verdana';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
     padding: 20px;
     margin: 10px;
 }
@@ -40,6 +46,7 @@ header p {
     margin-top: 80px;
     font: italic normal 4em 'Sriracha'; /* tamanho 67*/
     line-height: 2.1;
+    
     
 }
 
@@ -72,7 +79,6 @@ header p {
     background-attachment: fixed;
     height: 115vh;
     padding: 10px;
-
 }
 
 footer {
